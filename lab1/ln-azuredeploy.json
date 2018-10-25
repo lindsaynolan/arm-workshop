@@ -7,10 +7,10 @@
         {
             "type": "Microsoft.Storage/storageAccounts",
             "apiVersion": "2015-06-15",
-            "name": "lab1ln-sa",
+            "name": "lab1lnsa",
             "location": "[resourceGroup().location]",
             "tags": {
-                "displayName": "lab1ln-sa"
+                "displayName": "lab1lnsa"
             },
             "properties": {
                 "accountType": "Standard_LRS"
