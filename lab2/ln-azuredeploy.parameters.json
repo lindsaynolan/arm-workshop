@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "lindsayarm"
+        },
+        "hostingPlanName": {
+            "value": "lindsayarm-plan"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "location": {
+            "value": "East US"
+        },
+        "sku": {
+            "value": "Free"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "serverFarmResourceGroup": {
+            "value": "lab2"
+        },
+        "skuCode": {
+            "value": "F1"
+        },
+        "subscriptionId": {
+            "value": "cbd1c807-5f20-4127-bfae-8f6ae535df75"
+        }
+    }
+}
